@@ -5,7 +5,7 @@ vi:
     home: "Trang chủ"
     help: "Trợ giúp"
     login: "Đăng nhập"
-    users: "users"
+    users: "Người dùng"
     account: "Tài khoản"
     profile: "Thông tin cá nhân"
     settings: "Cài đặt"
@@ -40,3 +40,22 @@ vi:
     sign_up_now:  " Đăng ký ngay"
     fails: "Email/Mật khẩu không đúng"
     remember_me: "Ghi nhớ tài khoản"
+  users:
+    not_found: "Không tìm thấy người dùng"
+    index:
+      title: "Tất cả người dùng"
+      subject: "Tất cả người dùng"
+      btn_delete: "Xóa"
+      confirm_delete: "Bạn có chắc không?"
+    edit:
+      title: "Sửa người dùng"
+      btn_submit: "Lưu thay đổi"
+      subject: "Cập nhật thông tin cá nhân"
+      avatar_change: "Thay đổi"
+    update:
+      success: "Thông tin được cập nhật"
+    destroy:
+      success: "Đã xóa người dùng"
+      danger: "Thao tác xóa lỗi!"
+    login:
+      danger: "Làm ơn đăng nhập."
