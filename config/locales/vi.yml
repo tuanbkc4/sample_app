@@ -39,3 +39,4 @@ vi:
     not_a_member: "Không phải là thành viên?"
     sign_up_now:  " Đăng ký ngay"
     fails: "Email/Mật khẩu không đúng"
+    remember_me: "Ghi nhớ tài khoản"

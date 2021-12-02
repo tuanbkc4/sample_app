@@ -39,3 +39,4 @@ en:
     not_a_member: "Not a member?"
     sign_up_now:  "Sign up now"
     fails: "Invalid email/password combination"
+    remember_me: "Remember me on this computer"
