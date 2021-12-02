@@ -16,6 +16,18 @@ class User < ApplicationRecord
 
   validate :valid_birthday, if: ->{birthday.present?}
 
+  class << self
+    # Returns the hash digest of the given string.
+    def digest string
+      cost = if ActiveModel::SecurePassword.min_cost
+               BCrypt::Engine::MIN_COST
+             else
+               BCrypt::Engine.cost
+             end
+      BCrypt::Password.create string, cost: cost
+    end
+  end
+
   private
 
   def valid_birthday

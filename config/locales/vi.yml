@@ -5,6 +5,11 @@ vi:
     home: "Trang chủ"
     help: "Trợ giúp"
     login: "Đăng nhập"
+    users: "users"
+    account: "Tài khoản"
+    profile: "Thông tin cá nhân"
+    settings: "Cài đặt"
+    logout: "Đăng xuất"
   home: 
     content_h1: "Chào mừng bạn đến với Sample App"
     content_h2_html: Đây là trang chủ của Sample App <a href="http://ww.railstutorial.org/">hướng dẫn Ruby on Rails</a>
@@ -25,4 +30,12 @@ vi:
     create_my_account: "Tạo tài khoản"
     gender: "Giới tính"
     birthday: "Ngày sinh"
-    success: "Chào mừng bạn đến với Sample App!"
+    success: "Chào mừng bạn đến với Sample App!" 
+  login:
+    title: "Đăng nhập"
+    email:  "Email"
+    password: "Mật khẩu"
+    submit: "Đăng nhập"
+    not_a_member: "Không phải là thành viên?"
+    sign_up_now:  " Đăng ký ngay"
+    fails: "Email/Mật khẩu không đúng"
