@@ -1,22 +1,8 @@
 <% provide :title, t("signup.title") %>
+<% provide :button_text, t("signup.create_my_account") %>
 <h1><%= t "signup.title" %></h1>
 <div class="row">
   <div class="col-md-6 col-md-offset-3">
-    <%= form_for(@user) do |f| %>
-      <%= render "shared/error_messages" %>
-      <%= f.label :name, t("signup.name") %>
-      <%= f.text_field :name %>
-      <%= f.label :email, t("signup.email") %>
-      <%= f.email_field :email %>
-      <%= f.label :password, t("signup.password") %>
-      <%= f.password_field :password %>
-      <%= f.label :password_confirmation, t("signup.confirm_password") %>
-      <%= f.password_field :password_confirmation %>
-      <%= f.label :birthday, t("signup.birthday") %>
-      <%= f.text_field :birthday, class: "form-control" ,type: "date" %>
-      <%= f.label :gender, t("signup.gender") %>
-      <%= f.select :gender, options_for_select([["Male"], ["Female"], ["Other"]], :selected => :gender) %>
-      <%= f.submit t("signup.create_my_account"), class: "btn btn-primary" %>
-    <% end %>
+    <%= render "form" %>    
   </div>
 </div>
